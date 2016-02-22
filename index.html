@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Wallflower.cc</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Wallflower.cc</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#explore">Explore</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contribute">Contribute</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/wallflower-cc.png" alt="">
+                    <div class="intro-text">
+                        <span class="name">Building the Internet of Things</span>
+                        <hr class="star-light">
+                        <span class="skills">Learn - Build - Connect</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>We at Wallflower.cc are working to build the Internet of Things (IoT) by developing intuitive and portable software for collecting, storing, analyzing, and visualizing data from connected devices.</p>
+                    <p>At the core of our platform is the WCC (<i>dub-see-see</i>) data structure, a simple and extensible way of representing IoT devices.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Though we are still in the very early stages of development, we have released WCC-Pico, an open-source Python server that enables users to send and retrieve data from a database.</p>
+                    <p>Whether you're a student looking to learn IoT development or a professional wanting to prototype an idea, WCC-Pico makes it quick and easy to setup a network of devices.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center" style="margin-top:10px;">
+                    <a href="#" class="btn btn-lg btn-primary">
+                        <i class="fa fa-download"></i> Download WCC-Pico
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Explore Grid Section -->
+    <section class="success" id="explore">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Explore</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 explore-item">
+                    <a href="#exploreModal1" class="explore-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/explore/icon-data-structure.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 explore-item">
+                    <a href="#exploreModal2" class="explore-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/explore/icon-api.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 explore-item">
+                    <a href="#exploreModal3" class="explore-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/explore/icon-server.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contribute Section -->
+    <section id="contribute">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contribute</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>We at Wallflower.cc are working to build the Internet of Things (IoT) by developing intuitive and portable software for collecting, storing, analyzing, and visualizing data from connected devices.</p>
+                    <p>At the core of our platform is the WCC (<i>dub-see-see</i>) data structure, a simple and extensible way of representing IoT devices.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Though we are still in the very early stages of development, we have released WCC-Pico, a open-source Python server that enables users to send and retrieve data from a database.</p>
+                    <p>Whether you're a student looking to learn IoT development or a professional looking to prototype an idea, WCC-Pico makes it easy to get up and running.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About Freelancer</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Wallflower.cc 2016
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Explore Modals -->
+    <div class="explore-modal modal fade" id="exploreModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Data Structure</h2>
+                            <hr class="star-primary">
+                            <p>At the core of our platform is the WCC (dub-see-see) data structure, a simple and extensible way of representing IoT devices. Below, we provide a brief introduction of the WCC data structure.</p>
+                            <h3>Objects</h3>
+                            <p>Devices (such as a thermostat, a light switch, or a watch) are referred to as <i>objects</i>. In fact, any agent that produces or retrieves data is an <i>object</i>. This means that virtual agents, like web interfaces and smartphone apps, are also objects because they can retrieve data from other objects and produce data in the form of user input.</p>
+                            <p>Information about a particular object, such as a user-friendly name, a device category, or a product description, is collectively referred to as the <i>object details</i>. These details provide the information necessary for other objects to understand and interact with the object.</p>
+                            <img src="img/object.png" class="img-responsive img-centered" alt="">
+                            <h3>Streams</h3>
+                            <p>Every object is comprised of a number of <i>streams</i>. For example, a thermostat (object) has a setpoint temperature (stream) and turns on and off (stream) a heating system according to a temperature measurement (stream). Essentially, streams describe the data that is sent to and from an object. This includes sensory data as well as user settings and commands. 
+                            <p>Just as with objects, information about a particular stream is collectively referred to as the <i>stream details</i>. These details provide the information necessary to understand what the stream represents and how to interact. For example, is the stream physical/virtual, readable/writeable, or private/public.</p>
+                            <img src="img/stream.png" class="img-responsive img-centered" alt="">
+                            <h3>Points</h3>
+                            <p>The actual values of a stream are referred to as the <i>points</i>. The points can include a historical record of all previous values or simply the current value of the stream. The <i>points details</i> provide information directly related to the values being stored, such as the data type (integer, string, etc.) and units (Celsius, hours, etc.). 
+                            <img src="img/points.png" class="img-responsive img-centered" alt="">
+                            <h3>Network</h3>
+                            <p>Lastly, a <i>network</i> is simply a population of objects. Generally, a network will represent all the objects capable of communicating with one another (for example, the WiFi network within a house). The <i>network details</i> includes characteristics of the network.</p>
+                            <img src="img/network.png" class="img-responsive img-centered" alt="">
+                            <p>With the the WCC (dub-see-see) data structure, we can abstract IoT devices in a way that is simple to understand and easy to extend.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="explore-modal modal fade" id="exploreModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Application Programming Interface</h2>
+                            <hr class="star-primary">
+                            <p>In the WCC (dub-see-see) platform, an API provides a particular implementation of the data structure that enables devices to store and retrieve points in a server. <i>Not all WCC APIs are created equal</i>; some only provide basic functionality with limited communication while others offer a wider range of features.<p>
+                            <p>In this page, we briefly introduce the HTTP API, the simplest WCC API which allows devices to interact with a WCC server through a collection of RESTful web resources. We have designed the HTTP API to be easy to understand and to follow common practices. The HTTP API provides a very basic implementation of the WCC data structure where networks, objects, streams, and points are represented as endpoints and accessed via the URI to which the HTTP request is made. We have elected to favor human readability over effeciency and thus the HTTP API is, in many respects, unnecessarily verbose. Additionally, the API lacks important features such as authorization and minification. Nonetheless, it provides the ideal introduction to the Wallflower.cc platform.</p>
+                            <h3>WCC HTTP API</h3>
+                            <p>The HTTP API implements the PUT, GET, POST, and DELETE request methods allowing developers to create, read, update, and delete information on a WCC server. Components of the data structure (network, objects, and streams) are identified using unique ids included within the URI. Below, we present the enpoints for reading or viewing the contents of the WCC server using HTTP GET requests. This page is only meant to serve as a quick introduction. The WCC-Pico server and dashboard provide an interactive resource for learning and testing the API. Documentation for the HTTP API is still being developed.</p>
+                            
+                            
+                            <h4>Points</h4>
+                            <p>We begin with an example of a request to read the points from a stream. In this example, the points represent temperature measurements taken by a thermostat. Within the WCC server, the stream has the id <b>temp-sens</b> and is part of the object <b>thermostat-main</b> within the network <b>local</b>. An example of a request using the HTTP GET method and the JSON response returned by the server are given below.</p>
+                            
+<div class="alert alert-success" style="margin-top:20px"><p>Request</p><pre class="language-" style="color: rgb(60, 118, 61);"><b>GET</b> /networks/local/objects/thermostat-main/streams/temp-sens/points</pre><p>Response</p><pre class=" language-javascript"><span class="token punctuation">{</span>
+    <span class="token string">"network-id"</span><span class="token punctuation">:</span> <span class="token string">"local"</span><span class="token punctuation">,</span>
+    <span class="token string">"object-id"</span><span class="token punctuation">:</span> <span class="token string">"thermostat-main"</span><span class="token punctuation">,</span>
+    <span class="token string">"stream-id"</span><span class="token punctuation">:</span> <span class="token string">"temp-sens"</span><span class="token punctuation">,</span>
+    <span class="token string">"points"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:58.809000Z"</span><span class="token punctuation">,</span>
+            <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68.9</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:57.288000Z"</span><span class="token punctuation">,</span>
+            <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68.9</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:54.417000Z"</span><span class="token punctuation">,</span>
+            <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68.5</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:51.088000Z"</span><span class="token punctuation">,</span>
+            <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68.6</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:47.182000Z"</span><span class="token punctuation">,</span>
+            <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68.9</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token string">"points-details"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token string">"max-value"</span><span class="token punctuation">:</span> <span class="token number">68.9</span><span class="token punctuation">,</span>
+        <span class="token string">"min-value"</span><span class="token punctuation">:</span> <span class="token number">68.2</span><span class="token punctuation">,</span>
+        <span class="token string">"points-type"</span><span class="token punctuation">:</span> <span class="token string">"f"</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">"points-code"</span><span class="token punctuation">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+    <span class="token string">"points-message"</span><span class="token punctuation">:</span> <span class="token string">"Points local.thermostat-main.temp-sens.points Searched"</span>
+<span class="token punctuation">}</span></pre></div>
+
+
+
+                            <h4>Stream</h4>
+                            <p>If we want to access the information for a particular stream, we can make an HTTP GET request to the stream's endpoint, as given in the example below. In the HTTP API, data that belongs to the stream (in other words, the <i>points</i> and <i>points-details</i>) will automatically be included in the JSON response.</p>
+                            
+<div class="alert alert-success" style="margin-top:20px"><p>Request</p><pre class="language-" style="color: rgb(60, 118, 61);"><b>GET</b> /networks/local/objects/thermostat-main/streams/temp-sens</pre><p>Response</p><pre class=" language-javascript"><span class="token punctuation">{</span>
+    <span class="token string">"network-id"</span><span class="token punctuation">:</span> <span class="token string">"local"</span><span class="token punctuation">,</span>
+    <span class="token string">"object-id"</span><span class="token punctuation">:</span> <span class="token string">"thermostat-main"</span><span class="token punctuation">,</span>
+    <span class="token string">"stream-id"</span><span class="token punctuation">:</span> <span class="token string">"temp-sens"</span><span class="token punctuation">,</span>
+    <span class="token string">"stream-details"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token string">"created-at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:39:00.678000Z"</span><span class="token punctuation">,</span>
+        <span class="token string">"stream-name"</span><span class="token punctuation">:</span> <span class="token string">"Temperature Measurement"</span><span class="token punctuation">,</span>
+        <span class="token string">"stream-type"</span><span class="token punctuation">:</span> <span class="token string">"data"</span><span class="token punctuation">,</span>
+        <span class="token string">"updated-at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:58.809000Z"</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">"points"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:58.809000Z"</span><span class="token punctuation">,</span>
+            <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68.9</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:57.288000Z"</span><span class="token punctuation">,</span>
+            <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68.9</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:54.417000Z"</span><span class="token punctuation">,</span>
+            <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68.5</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:51.088000Z"</span><span class="token punctuation">,</span>
+            <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68.6</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:47.182000Z"</span><span class="token punctuation">,</span>
+            <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68.9</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token string">"points-details"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token string">"points-type"</span><span class="token punctuation">:</span> <span class="token string">"f"</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">"stream-code"</span><span class="token punctuation">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+    <span class="token string">"stream-message"</span><span class="token punctuation">:</span> <span class="token string">"Stream local.thermostat-main.temp-sens Read"</span>
+<span class="token punctuation">}</span></pre></div>
+
+
+
+                            <h4>Object</h4>
+                            <p>If we want to access the information for a particular object, we can make an HTTP GET request to the objects's endpoint. All stream and points information will automatically be included in the JSON response. Here we see that the <b>thermostat-main</b> object has 2 streams, <b>temp-sens</b> and <b>temp-set</b>.</p>
+                            
+<div class="alert alert-success" style="margin-top:20px"><p>Request</p><pre class="language-" style="color: rgb(60, 118, 61);"><b>GET</b> /networks/local/objects/thermostat-main</pre><p>Response</p><pre class=" language-javascript"><span class="token punctuation">{</span>
+    <span class="token string">"network-id"</span><span class="token punctuation">:</span> <span class="token string">"local"</span><span class="token punctuation">,</span>
+    <span class="token string">"object-id"</span><span class="token punctuation">:</span> <span class="token string">"thermostat-main"</span><span class="token punctuation">,</span>
+    <span class="token string">"object-details"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token string">"created-at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:38:17.356000Z"</span><span class="token punctuation">,</span>
+        <span class="token string">"object-name"</span><span class="token punctuation">:</span> <span class="token string">"Thermostat"</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">"object-code"</span><span class="token punctuation">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+    <span class="token string">"object-message"</span><span class="token punctuation">:</span> <span class="token string">"Object local.thermostat-main Read"</span><span class="token punctuation">,</span>
+    <span class="token string">"streams"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token string">"temp-sens"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            <span class="token string">"stream-id"</span><span class="token punctuation">:</span> <span class="token string">"temp-sens"</span><span class="token punctuation">,</span>
+            <span class="token string">"stream-details"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                <span class="token string">"created-at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:39:00.678000Z"</span><span class="token punctuation">,</span>
+                <span class="token string">"stream-name"</span><span class="token punctuation">:</span> <span class="token string">"Temperature Measurement"</span><span class="token punctuation">,</span>
+                <span class="token string">"stream-type"</span><span class="token punctuation">:</span> <span class="token string">"data"</span><span class="token punctuation">,</span>
+                <span class="token string">"updated-at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:58.809000Z"</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token string">"points"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+                <span class="token punctuation">{</span>
+                    <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:58.809000Z"</span><span class="token punctuation">,</span>
+                    <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68.9</span>
+                <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                <span class="token punctuation">{</span>
+                    <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:57.288000Z"</span><span class="token punctuation">,</span>
+                    <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68.9</span>
+                <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                <span class="token punctuation">{</span>
+                    <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:54.417000Z"</span><span class="token punctuation">,</span>
+                    <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68.5</span>
+                <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                <span class="token punctuation">{</span>
+                    <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:51.088000Z"</span><span class="token punctuation">,</span>
+                    <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68.6</span>
+                <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                <span class="token punctuation">{</span>
+                    <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:47.182000Z"</span><span class="token punctuation">,</span>
+                    <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68.9</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token string">"points-details"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                <span class="token string">"points-type"</span><span class="token punctuation">:</span> <span class="token string">"f"</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token string">"temp-set"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            <span class="token string">"stream-id"</span><span class="token punctuation">:</span> <span class="token string">"temp-set"</span><span class="token punctuation">,</span>
+            <span class="token string">"stream-details"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                <span class="token string">"created-at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:39:24.441000Z"</span><span class="token punctuation">,</span>
+                <span class="token string">"stream-name"</span><span class="token punctuation">:</span> <span class="token string">"Temperature Setpoint"</span><span class="token punctuation">,</span>
+                <span class="token string">"stream-type"</span><span class="token punctuation">:</span> <span class="token string">"data"</span><span class="token punctuation">,</span>
+                <span class="token string">"updated-at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:43:31.464000Z"</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token string">"points"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+                <span class="token punctuation">{</span>
+                    <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:43:31.464000Z"</span><span class="token punctuation">,</span>
+                    <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">70</span>
+                <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                <span class="token punctuation">{</span>
+                    <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:43:23.707000Z"</span><span class="token punctuation">,</span>
+                    <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token string">"points-details"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                <span class="token string">"max-value"</span><span class="token punctuation">:</span> <span class="token number">70</span><span class="token punctuation">,</span>
+                <span class="token string">"min-value"</span><span class="token punctuation">:</span> <span class="token number">68</span><span class="token punctuation">,</span>
+                <span class="token string">"points-type"</span><span class="token punctuation">:</span> <span class="token string">"f"</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></pre></div>
+                            
+                            
+                            
+                            <h4>Network</h4>
+                            <p>Finally, if we want to view the entire network, we can make a HTTP GET request to the network's endpoint, as shown below.</p>
+
+<div class="alert alert-success" style="margin-top:20px"><p>Request</p><pre class="language-" style="color: rgb(60, 118, 61);"><b>GET</b> /networks/local</pre><p>Response</p><pre class=" language-javascript"><span class="token punctuation">{</span>
+    <span class="token string">"network-id"</span><span class="token punctuation">:</span> <span class="token string">"local"</span><span class="token punctuation">,</span>
+    <span class="token string">"network-details"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token string">"created-at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-11T22:47:04.131000Z"</span><span class="token punctuation">,</span>
+        <span class="token string">"network-name"</span><span class="token punctuation">:</span> <span class="token string">"Local Wallflower.cc Network"</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">"network-code"</span><span class="token punctuation">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+    <span class="token string">"network-message"</span><span class="token punctuation">:</span> <span class="token string">"Network local Read"</span><span class="token punctuation">,</span>
+    <span class="token string">"objects"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token string">"alarm-clock-1"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            <span class="token string">"object-id"</span><span class="token punctuation">:</span> <span class="token string">"alarm-clock-1"</span><span class="token punctuation">,</span>
+            <span class="token string">"object-details"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                <span class="token string">"created-at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:15:17.920000Z"</span><span class="token punctuation">,</span>
+                <span class="token string">"object-name"</span><span class="token punctuation">:</span> <span class="token string">"Bedroom Alarm Clock"</span><span class="token punctuation">,</span>
+                <span class="token string">"updated-at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:43:49.676000Z"</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token string">"streams"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                <span class="token string">"alarm-setting-1"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                    <span class="token string">"stream-id"</span><span class="token punctuation">:</span> <span class="token string">"alarm-setting-1"</span><span class="token punctuation">,</span>
+                    <span class="token string">"stream-details"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                        <span class="token string">"created-at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:31:33.689000Z"</span><span class="token punctuation">,</span>
+                        <span class="token string">"stream-name"</span><span class="token punctuation">:</span> <span class="token string">"Alarm One"</span><span class="token punctuation">,</span>
+                        <span class="token string">"stream-type"</span><span class="token punctuation">:</span> <span class="token string">"data"</span><span class="token punctuation">,</span>
+                        <span class="token string">"updated-at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:41:26.981000Z"</span>
+                    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                    <span class="token string">"points"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:41:26.981000Z"</span><span class="token punctuation">,</span>
+                            <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token string">"7:00:00"</span>
+                        <span class="token punctuation">}</span>
+                    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                    <span class="token string">"points-details"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                        <span class="token string">"points-type"</span><span class="token punctuation">:</span> <span class="token string">"s"</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                <span class="token string">"alarm-setting-2"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                    <span class="token string">"stream-id"</span><span class="token punctuation">:</span> <span class="token string">"alarm-setting-2"</span><span class="token punctuation">,</span>
+                    <span class="token string">"stream-details"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                        <span class="token string">"created-at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:37:27.261000Z"</span><span class="token punctuation">,</span>
+                        <span class="token string">"stream-name"</span><span class="token punctuation">:</span> <span class="token string">"Alarm Two"</span><span class="token punctuation">,</span>
+                        <span class="token string">"stream-type"</span><span class="token punctuation">:</span> <span class="token string">"data"</span><span class="token punctuation">,</span>
+                        <span class="token string">"updated-at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:01.348000Z"</span>
+                    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                    <span class="token string">"points"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:01.348000Z"</span><span class="token punctuation">,</span>
+                            <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token string">"7:45:00"</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:41:50.183000Z"</span><span class="token punctuation">,</span>
+                            <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token string">"7:30:00"</span>
+                        <span class="token punctuation">}</span>
+                    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                    <span class="token string">"points-details"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                        <span class="token string">"points-type"</span><span class="token punctuation">:</span> <span class="token string">"s"</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token string">"thermostat-main"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            <span class="token string">"object-id"</span><span class="token punctuation">:</span> <span class="token string">"thermostat-main"</span><span class="token punctuation">,</span>
+            <span class="token string">"object-details"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                <span class="token string">"created-at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:38:17.356000Z"</span><span class="token punctuation">,</span>
+                <span class="token string">"object-name"</span><span class="token punctuation">:</span> <span class="token string">"Thermostat"</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token string">"streams"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                <span class="token string">"temp-sens"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                    <span class="token string">"stream-id"</span><span class="token punctuation">:</span> <span class="token string">"temp-sens"</span><span class="token punctuation">,</span>
+                    <span class="token string">"stream-details"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                        <span class="token string">"created-at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:39:00.678000Z"</span><span class="token punctuation">,</span>
+                        <span class="token string">"stream-name"</span><span class="token punctuation">:</span> <span class="token string">"Temperature Measurement"</span><span class="token punctuation">,</span>
+                        <span class="token string">"stream-type"</span><span class="token punctuation">:</span> <span class="token string">"data"</span><span class="token punctuation">,</span>
+                        <span class="token string">"updated-at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:58.809000Z"</span>
+                    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                    <span class="token string">"points"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:58.809000Z"</span><span class="token punctuation">,</span>
+                            <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68.9</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:57.288000Z"</span><span class="token punctuation">,</span>
+                            <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68.9</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:54.417000Z"</span><span class="token punctuation">,</span>
+                            <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68.5</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:51.088000Z"</span><span class="token punctuation">,</span>
+                            <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68.6</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:42:47.182000Z"</span><span class="token punctuation">,</span>
+                            <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68.9</span>
+                        <span class="token punctuation">}</span>
+                    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                    <span class="token string">"points-details"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                        <span class="token string">"points-type"</span><span class="token punctuation">:</span> <span class="token string">"f"</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                <span class="token string">"temp-set"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                    <span class="token string">"stream-id"</span><span class="token punctuation">:</span> <span class="token string">"temp-set"</span><span class="token punctuation">,</span>
+                    <span class="token string">"stream-details"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                        <span class="token string">"created-at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:39:24.441000Z"</span><span class="token punctuation">,</span>
+                        <span class="token string">"stream-name"</span><span class="token punctuation">:</span> <span class="token string">"Temperature Setpoint"</span><span class="token punctuation">,</span>
+                        <span class="token string">"stream-type"</span><span class="token punctuation">:</span> <span class="token string">"data"</span><span class="token punctuation">,</span>
+                        <span class="token string">"updated-at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:43:31.464000Z"</span>
+                    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                    <span class="token string">"points"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:43:31.464000Z"</span><span class="token punctuation">,</span>
+                            <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">70</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token string">"at"</span><span class="token punctuation">:</span> <span class="token string">"2016-02-16T06:43:23.707000Z"</span><span class="token punctuation">,</span>
+                            <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token number">68</span>
+                        <span class="token punctuation">}</span>
+                    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                    <span class="token string">"points-details"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                        <span class="token string">"points-type"</span><span class="token punctuation">:</span> <span class="token string">"f"</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></pre></div>
+                            
+                            <p>The examples above illustrate how to retrieve information from a WCC server using the HTTP API. The requests for creating, updating and deleting networks, objects, streams, and points follow a similar format but employ the HTTP PUT, POST, and DELETE methonds. The WCC-Pico server provides an interactive resource for learning and testing the HTTP API.</p>
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="explore-modal modal fade" id="exploreModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Server</h2>
+                            <hr class="star-primary">
+                            <p>In the WCC (dub-see-see) platform, a server is a program running on a computer that stores the contents of a WCC network in a database. A server implements one or more of the WCC APIs, allowing other devices to create, read, update, or delete the information on the server. </p>
+                            <img src="img/server.png" class="img-responsive img-centered" alt="">
+                            <h3>Wallflower-Pico</h3>
+                            <p>Wallflower-Pico is the first server that we have released and provides a simple and easy-to-learn introduction to the WCC platform. The Wallflower-Pico server implements the HTTP API and includes a JS/jQuery web interface. The server is written in Python and the API is built upon a Flask app. An SQLite database is employed for storage. We have elected to leave the API exposed in the server and interface code to enable easy modification and experimentation</p>
+                            
+                            <div class="row">
+                                <div class="col-lg-5 col-lg-offset-1 text-center" style="margin-top:10px;">
+                                    <a href="#" class="btn btn-lg btn-primary">
+                                        <i class="fa fa-eye"></i> Wallflower-Pico Demo
+                                    </a>
+                                </div>
+                                <div class="col-lg-5 text-center" style="margin-top:10px;">
+                                    <a href="#" class="btn btn-lg btn-primary">
+                                        <i class="fa fa-download"></i> Download Wallflower-Pico
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-lg-offset-3 text-center" style="margin-top:10px;">
+                                    <a href="https://github.com/wallflowercc/wallflower-pico" class="btn btn-lg btn-primary" target="_blank">
+                                        <i class="fa fa-github"></i> View Wallflower-Pico Source
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal" style="margin-top:10px;"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
+</body>
+
+</html>
