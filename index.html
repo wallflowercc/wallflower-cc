@@ -203,7 +203,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                 <p>The design and contents of this site are copyright by Wallflower.cc.</p>
                 <p>The Wallflower.Pico and Wallflower.Nano source code is licensed under the <a href="https://opensource.org/licenses/AGPL-3.0" target="_blank">AGPL v3</a>. You can find a reference to this license at the top of each source code file.</p>
-                <p>Components which connect to the servers via the API are not affected by the AGPL. This extends to the HTML, JS, and CSS code of the web interface, which is licensed under the <a href="https://opensource.org/licenses/MIT">MIT</a> license.</p>
+                <p>Components which connect to the servers via the API are not affected by the AGPL. This extends to the Python example code and the HTML, JS, and CSS code of the web interface, which are licensed under the <a href="https://opensource.org/licenses/MIT">MIT</a> license.</p>
                 <p>In summary, any modifications to the Wallflower.Pico and Wallflower.Nano source code must be distributed according to the terms of the AGPL v3. Any code that connects to the Wallflower servers via the API is recognized as a seperate work (not a derivative work) irrespective of where it runs. Lastly, you are free to modify the HTML, JS, and CSS code of the web interface without restrictions, though we would appreciate you sharing what you have created.</p>
                 </div>
             </div>
@@ -665,7 +665,7 @@
                             <p>To start the server on your computer, run
                             <pre><span>$ </span>python wallflower_pico_server.py</pre>
                             <p>Open a web browser and navigate to http://127.0.0.1:5000/ to view the interactive dashboard. By default, the server will also be publically available on your network and accessible via the IP address of your computer (i.e. http://IP_ADDRESS:5000/).</p>
-                            <p>The Wallflower.Pico server is capable of broadcasting changes to the network over a WebSocket port. This allows devices and interfaces to be updated in real-time be receiving all <i>successful</i> responses to create, update, and delete requests. Before enabling the WebSocket funtionality, you will need to install <a href="http://autobahn.ws/" target="_blank">Autobahn|Python</a>, an open-source server for the WebSocket protocol, which can be installed with pip</p>
+                            <p>The Wallflower.Pico server is capable of broadcasting changes to the network over a WebSocket port. This allows devices and interfaces to be updated in real-time by receiving all <i>successful</i> responses to create, update, and delete requests. Before enabling the WebSocket funtionality, you will need to install <a href="http://autobahn.ws/" target="_blank">Autobahn|Python</a>, an open-source server for the WebSocket protocol, which can be installed with pip</p>
                             <pre><span>$ </span>pip install autobahn[twisted]</pre>
                             <p>To start the server with the WebSocket enabled, edit the <i>wallflower_config.json</i> file and change</p>
                             <pre>"enable_ws": false,</pre>
