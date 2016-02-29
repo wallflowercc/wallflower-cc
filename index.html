@@ -86,12 +86,12 @@
     </header>
 
     <!-- About Section -->
-    <section id="about">
+    <section id="about" class="success">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>About</h2>
-                    <hr class="star-primary">
+                    <hr class="star-light">
                 </div>
             </div>
             <div class="row">
@@ -100,14 +100,26 @@
                     <p>At the core of our platform is the WCC (<i>dub-see-see</i>) data structure, a simple and extensible way of representing IoT devices.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Though we are still in the very early stages of development, we have released WCC-Pico, an open-source Python server that enables users to send and retrieve data from a database.</p>
-                    <p>Whether you're a student looking to learn IoT development or a professional wanting to prototype an idea, WCC-Pico makes it quick and easy to setup a network of devices.</p>
+                    <p>Though we are still in the very early stages of development, we have released Wallflower.Pico, an open-source Python server that enables users to send and retrieve data from a database.</p>
+                    <p>Whether you're a student looking to learn IoT development or a professional wanting to prototype an idea, Wallflower.Pico makes it quick and easy to setup a network of devices.</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center" style="margin-top:10px;">
-                    <a href="#" class="btn btn-lg btn-primary">
-                        <i class="fa fa-download"></i> Download WCC-Pico
+                <div class="col-lg-4 col-lg-offset-2 text-center" style="margin-top:10px;">
+                    <a href="demo" class="btn btn-lg btn-outline" target="_blank">
+                        <i class="fa fa-eye"></i> Wallflower.Pico Demo
+                    </a>
+                </div>
+                <div class="col-lg-4 text-center" style="margin-top:10px;">
+                    <a href="https://github.com/wallflowercc/wallflower-pico/archive/master.zip" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download Wallflower.Pico
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-4 text-center" style="margin-top:10px;">
+                    <a href="https://github.com/wallflowercc/wallflower-pico" class="btn btn-lg btn-outline" target="_blank">
+                        <i class="fa fa-github"></i> View Wallflower.Pico Source
                     </a>
                 </div>
             </div>
@@ -115,12 +127,12 @@
     </section>
     
     <!-- Explore Grid Section -->
-    <section class="success" id="explore">
+    <section id="explore">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Explore</h2>
-                    <hr class="star-light">
+                    <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
@@ -160,22 +172,39 @@
 
 
     <!-- Contribute Section -->
-    <section id="contribute">
+    <section id="contribute" class="success">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Contribute</h2>
-                    <hr class="star-primary">
+                    <hr class="star-light">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>We at Wallflower.cc are working to build the Internet of Things (IoT) by developing intuitive and portable software for collecting, storing, analyzing, and visualizing data from connected devices.</p>
-                    <p>At the core of our platform is the WCC (<i>dub-see-see</i>) data structure, a simple and extensible way of representing IoT devices.</p>
+                <p>Wallflower.cc is still in the early stages of development, so if you find a bug or have suggestions, please let us know on <a href="https://github.com/wallflowercc/" target="_blank">GitHub</a>.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Though we are still in the very early stages of development, we have released WCC-Pico, a open-source Python server that enables users to send and retrieve data from a database.</p>
-                    <p>Whether you're a student looking to learn IoT development or a professional looking to prototype an idea, WCC-Pico makes it easy to get up and running.</p>
+                <p>The Wallflower.Pico and Wallflower.Nano servers are open-source (AGPL v3) and we encourage users to modify the code and make it their own.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Copyright Section -->
+    <section id="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Copyright</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                <p>The design and contents of this site are copyright by Wallflower.cc.</p>
+                <p>The Wallflower.Pico and Wallflower.Nano source code is licensed under the <a href="https://opensource.org/licenses/AGPL-3.0" target="_blank">AGPL v3</a>. You can find a reference to this license at the top of each source code file.</p>
+                <p>Components which connect to the servers via the API are not affected by the AGPL. This extends to the Python example code and the HTML, JS, and CSS code of the web interface, which are licensed under the <a href="https://opensource.org/licenses/MIT">MIT</a> license.</p>
+                <p>In summary, any modifications to the Wallflower.Pico and Wallflower.Nano source code must be distributed according to the terms of the AGPL v3. Any code that connects to the Wallflower servers via the API is recognized as a seperate work (not a derivative work) irrespective of where it runs. Lastly, you are free to modify the HTML, JS, and CSS code of the web interface without restrictions, though we would appreciate you sharing what you have created.</p>
                 </div>
             </div>
         </div>
@@ -183,7 +212,7 @@
 
     <!-- Footer -->
     <footer class="text-center">
-        <div class="footer-above">
+        <!--<div class="footer-above">
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
@@ -216,7 +245,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         <div class="footer-below">
             <div class="container">
                 <div class="row">
@@ -250,7 +279,7 @@
                         <div class="modal-body">
                             <h2>Data Structure</h2>
                             <hr class="star-primary">
-                            <p>At the core of our platform is the WCC (dub-see-see) data structure, a simple and extensible way of representing IoT devices. Below, we provide a brief introduction of the WCC data structure.</p>
+                            <p>At the core of our platform is the WCC (<i>dub-see-see</i>) data structure, a simple and extensible way of representing IoT devices. Below, we provide a brief introduction of the WCC data structure.</p>
                             <h3>Objects</h3>
                             <p>Devices (such as a thermostat, a light switch, or a watch) are referred to as <i>objects</i>. In fact, any agent that produces or retrieves data is an <i>object</i>. This means that virtual agents, like web interfaces and smartphone apps, are also objects because they can retrieve data from other objects and produce data in the form of user input.</p>
                             <p>Information about a particular object, such as a user-friendly name, a device category, or a product description, is collectively referred to as the <i>object details</i>. These details provide the information necessary for other objects to understand and interact with the object.</p>
@@ -265,7 +294,7 @@
                             <h3>Network</h3>
                             <p>Lastly, a <i>network</i> is simply a population of objects. Generally, a network will represent all the objects capable of communicating with one another (for example, the WiFi network within a house). The <i>network details</i> includes characteristics of the network.</p>
                             <img src="img/network.png" class="img-responsive img-centered" alt="">
-                            <p>With the the WCC (dub-see-see) data structure, we can abstract IoT devices in a way that is simple to understand and easy to extend.</p>
+                            <p>With the the WCC data structure, we can abstract IoT devices in a way that is simple to understand and easy to extend.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -287,10 +316,10 @@
                         <div class="modal-body">
                             <h2>Application Programming Interface</h2>
                             <hr class="star-primary">
-                            <p>In the WCC (dub-see-see) platform, an API provides a particular implementation of the data structure that enables devices to store and retrieve points in a server. <i>Not all WCC APIs are created equal</i>; some only provide basic functionality with limited communication while others offer a wider range of features.<p>
+                            <p>In the WCC (<i>dub-see-see</i>) platform, an API provides a particular implementation of the data structure that enables devices to store and retrieve points in a server. <i>Not all WCC APIs are created equal</i>; some only provide basic functionality with limited communication while others offer a wider range of features.<p>
                             <p>In this page, we briefly introduce the HTTP API, the simplest WCC API which allows devices to interact with a WCC server through a collection of RESTful web resources. We have designed the HTTP API to be easy to understand and to follow common practices. The HTTP API provides a very basic implementation of the WCC data structure where networks, objects, streams, and points are represented as endpoints and accessed via the URI to which the HTTP request is made. We have elected to favor human readability over effeciency and thus the HTTP API is, in many respects, unnecessarily verbose. Additionally, the API lacks important features such as authorization and minification. Nonetheless, it provides the ideal introduction to the Wallflower.cc platform.</p>
                             <h3>WCC HTTP API</h3>
-                            <p>The HTTP API implements the PUT, GET, POST, and DELETE request methods allowing developers to create, read, update, and delete information on a WCC server. Components of the data structure (network, objects, and streams) are identified using unique ids included within the URI. Below, we present the enpoints for reading or viewing the contents of the WCC server using HTTP GET requests. This page is only meant to serve as a quick introduction. The WCC-Pico server and dashboard provide an interactive resource for learning and testing the API. Documentation for the HTTP API is still being developed.</p>
+                            <p>The HTTP API implements the PUT, GET, POST, and DELETE request methods allowing developers to create, read, update, and delete information on a WCC server. Components of the data structure (network, objects, and streams) are identified using unique ids included within the URI. Below, we present the enpoints for reading or viewing the contents of the WCC server using HTTP GET requests. This page is only meant to serve as a quick introduction. The Wallflower.Pico server and dashboard provide an interactive resource for learning and testing the API. Documentation for the HTTP API is still being developed.</p>
                             
                             
                             <h4>Points</h4>
@@ -583,7 +612,7 @@
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></pre></div>
                             
-                            <p>The examples above illustrate how to retrieve information from a WCC server using the HTTP API. The requests for creating, updating and deleting networks, objects, streams, and points follow a similar format but employ the HTTP PUT, POST, and DELETE methonds. The WCC-Pico server provides an interactive resource for learning and testing the HTTP API.</p>
+                            <p>The examples above illustrate how to retrieve information from a WCC server using the HTTP API. The requests for creating, updating and deleting networks, objects, streams, and points follow a similar format but employ the HTTP PUT, POST, and DELETE methonds. The Wallflower.Pico server provides an interactive resource for learning and testing the HTTP API.</p>
                             
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -606,31 +635,49 @@
                         <div class="modal-body">
                             <h2>Server</h2>
                             <hr class="star-primary">
-                            <p>In the WCC (dub-see-see) platform, a server is a program running on a computer that stores the contents of a WCC network in a database. A server implements one or more of the WCC APIs, allowing other devices to create, read, update, or delete the information on the server. </p>
+                            <p>In the WCC (<i>dub-see-see</i>) platform, a server is a program running on a computer that stores the contents of a WCC network in a database. A server implements one or more of the WCC APIs, allowing other devices to create, read, update, or delete the information on the server. </p>
                             <img src="img/server.png" class="img-responsive img-centered" alt="">
-                            <h3>Wallflower-Pico</h3>
-                            <p>Wallflower-Pico is the first server that we have released and provides a simple and easy-to-learn introduction to the WCC platform. The Wallflower-Pico server implements the HTTP API and includes a JS/jQuery web interface. The server is written in Python and the API is built upon a Flask app. An SQLite database is employed for storage. We have elected to leave the API exposed in the server and interface code to enable easy modification and experimentation</p>
+                            <h3>Wallflower.Pico</h3>
+                            <p>Wallflower.Pico is the first server that we have released and provides a simple and easy-to-learn introduction to the WCC platform. The Wallflower.Pico server implements the HTTP API and includes a JS/jQuery web interface. The server is written in Python and the HTTP API is built upon a Flask app. To enable real-time communication, Wallflower.Pico also supports the addition of a WebSocket port using an Autobahn/Twisted server. An SQLite database is employed for storage. We have elected to leave the API exposed in the server, demo, and interface code to enable easy modification and experimentation.</p>
                             
                             <div class="row">
                                 <div class="col-lg-5 col-lg-offset-1 text-center" style="margin-top:10px;">
-                                    <a href="#" class="btn btn-lg btn-primary">
-                                        <i class="fa fa-eye"></i> Wallflower-Pico Demo
+                                    <a href="demo" class="btn btn-lg btn-primary" target="_blank">
+                                        <i class="fa fa-eye"></i> Wallflower.Pico Demo
                                     </a>
                                 </div>
                                 <div class="col-lg-5 text-center" style="margin-top:10px;">
-                                    <a href="#" class="btn btn-lg btn-primary">
-                                        <i class="fa fa-download"></i> Download Wallflower-Pico
+                                    <a href="https://github.com/wallflowercc/wallflower-pico/archive/master.zip" class="btn btn-lg btn-primary">
+                                        <i class="fa fa-download"></i> Download Wallflower.Pico
                                     </a>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-lg-6 col-lg-offset-3 text-center" style="margin-top:10px;">
                                     <a href="https://github.com/wallflowercc/wallflower-pico" class="btn btn-lg btn-primary" target="_blank">
-                                        <i class="fa fa-github"></i> View Wallflower-Pico Source
+                                        <i class="fa fa-github"></i> View Wallflower.Pico Source
                                     </a>
                                 </div>
                             </div>
-                            
+                            <h4>Quick Start Guide</h4>
+                            <p>Wallflower.Pico requires <a href="http://flask.pocoo.org/" target="_blank">Flask</a>, which can be installed with pip</p>
+                            <pre><span>$ </span>pip install Flask</pre>
+                            <p>To start the server on your computer, run
+                            <pre><span>$ </span>python wallflower_pico_server.py</pre>
+                            <p>Open a web browser and navigate to http://127.0.0.1:5000/ to view the interactive dashboard. By default, the server will also be publically available on your network and accessible via the IP address of your computer (i.e. http://IP_ADDRESS:5000/).</p>
+                            <p>The Wallflower.Pico server is capable of broadcasting changes to the network over a WebSocket port. This allows devices and interfaces to be updated in real-time by receiving all <i>successful</i> responses to create, update, and delete requests. Before enabling the WebSocket funtionality, you will need to install <a href="http://autobahn.ws/" target="_blank">Autobahn|Python</a>, an open-source server for the WebSocket protocol, which can be installed with pip</p>
+                            <pre><span>$ </span>pip install autobahn[twisted]</pre>
+                            <p>To start the server with the WebSocket enabled, edit the <i>wallflower_config.json</i> file and change</p>
+                            <pre>"enable_ws": false,</pre>
+                            <p>to</p>
+                            <pre>"enable_ws": true,</pre>
+                            <p>Then start the server by running</p>
+                            <pre><span>$ </span>python wallflower_pico_server.py</pre>
+                            <p>Note that by enabling the WebSocket port, you will use <i>index_ws.html</i> instead of <i>index.html</i> as the web interface. Additionally, the WebSocket port is not capable of receiving requests and any messages sent to the port will be ignored.</p>
+                            <p>The <i>wallflower_demo.py</i> file includes sample Python code for creating objects and streams and for sending new datapoints. Running the demo code with the WebSocket port enabled will illustrate the capabilities of the interactive dashboard. The <i>wallflower_demo_ws.py</i> file includes sample code for listening to messages broadcast by the WebSocket port using an Autobahn client.</p>
+                            <p>The Wallflower.Pico server is still in beta development, so if you find a bug, please let us know on <a href="https://github.com/wallflowercc/wallflower-pico" target="_blank">GitHub</a>.</p>
+                            <h3>Wallflower.Nano</h3>
+                            <p>Our second server, Wallflower.Nano, is currently in development and will be built upon <a href="http://crossbar.io/" target="_blank">Crossbar.io</a>, an open-source router for the WAMP protocol. The server will allow devices to subscribe to endpoints and to receive notifications in real-time.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal" style="margin-top:10px;"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
